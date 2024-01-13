@@ -6,3 +6,33 @@
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
 }
+
+header {
+    background-color: aqua;
+    padding: 50px 240px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h1 {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 40px;
+    color: #424242;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
