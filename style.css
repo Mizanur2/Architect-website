@@ -146,10 +146,6 @@ main {
     margin-bottom: 20px;
 }
 
-/* .sponsor-img img {
-    display: block;
-} */
-
 .sponsors-img {
     display: flex;
     justify-content: space-between;
@@ -160,6 +156,13 @@ main {
 
 .sponsors-img img {
     filter: grayscale(100%);
+}
+
+
+footer {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 140px;
+    text-align: center;
 }
 
 /* media queries for small device */
