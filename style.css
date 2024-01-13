@@ -70,3 +70,35 @@ button {
     margin-top: 20px;
     cursor: pointer;
 }
+
+
+/* media queries for small device */
+
+@media screen and (max-width:640px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 20px;
+    }
+
+    header {
+        padding: 50px 10px;
+    }
+
+    .header-section img {
+        width: 100%;
+    }
+}
+
+/* madia queries for medium device */
+@media screen and (min-width:640px) and (max-width:1024px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin: 20px;
+    }
+}
